@@ -15,7 +15,10 @@ body {
   text-align: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
   position: relative; /* needed for NO button movement */
+  width: 400px;   /* new: sets a fixed width */
+  height: 300px;  /* new: sets a fixed height */
 }
+
 
 h1 {
   color: #ff4d6d;
