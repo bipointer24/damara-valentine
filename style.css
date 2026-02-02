@@ -5,6 +5,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
 }
 
 .container {
@@ -13,6 +14,7 @@ body {
   border-radius: 16px;
   text-align: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  position: relative; /* needed for NO button movement */
 }
 
 h1 {
@@ -26,6 +28,7 @@ button {
   border-radius: 10px;
   border: none;
   cursor: pointer;
+  transition: left 0.15s ease, top 0.15s ease; /* smooth NO button movement */
 }
 
 #yes {
